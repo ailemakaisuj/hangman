@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hangman.css">
     <title>Hangman</title>
+    <script src="hangman.js"></script>
 </head>
 <body>
-    Hangman
+    <div class="App">
+        <h1>Hangman</h1>
+        
+        <div class="InputArea">
+            <p id="CharLabel">Podaj literę</p>
+            <input type="text">
+            <button id="btnSearch">Szukaj</button>
+            <input id="Checkbox" type="checkbox">
+            <p id="CheckboxLabel">Zaznacz aby zgadywać całość</p>
+        </div>        
+
+        <div class="hangArea">
+            <p>=== === === === ===</p>
+            <p>||</p>
+            <p>||</p>
+            <p>||</p>
+            <p>||</p>
+            <p>||</p>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,13 @@
+.App {
+    margin: 20px;
+}
+
+.InputArea * {
+    margin: 0;
+    display: inline-block;
+}
+
+.InputArea input {
+    margin: 0 10px;
+}
+
